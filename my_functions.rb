@@ -16,3 +16,12 @@ total = 0
   end
 return total
 end
+
+def find_item(array, item)
+for array_item in array
+  if array_item == item
+      return true
+  end
+end
+return false
+end
