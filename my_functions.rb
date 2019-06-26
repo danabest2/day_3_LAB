@@ -25,3 +25,7 @@ for array_item in array
 end
 return false
 end
+
+def get_first_key(myhash)
+return myhash.keys[0]
+end
